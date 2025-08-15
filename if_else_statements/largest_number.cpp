@@ -19,7 +19,5 @@ int main()
    }
    else{
     cout<<" c is greater";
-   }
-
-
+   }  
 }
