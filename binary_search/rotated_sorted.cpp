@@ -19,13 +19,12 @@ int rotated(vector<int>vec,int n,int tar)
             if(vec[st]<=tar && tar<=vec[mid])
             {
                 end = mid-1;
-                  cout<<"2st: "<<end<<endl;
+                
             }
             else
             {
                 st = mid+1;
-                cout<<"3st: "<<st<<endl;
-                cout<<"st: "<<end<<endl;
+                
             }
         }
         else //right sorted
@@ -33,12 +32,11 @@ int rotated(vector<int>vec,int n,int tar)
             if(vec[mid]<=tar && tar<=vec[end])
             {
                 st=mid+1;
-                cout<<"4st: "<<st<<endl;
+              
             }
             else
             {
                 end = mid-1;
-                cout<<"5st: "<<end<<endl;
             }
         }
     }

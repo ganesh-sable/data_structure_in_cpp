@@ -14,5 +14,6 @@ int main()
     float price=100.25;
     float *point=&price;
     cout<<"value of point:"<<point<<endl;
-    cout<<"address point: "<<&point;
+    cout<<"address point: "<<&point<<endl;
+    cout<<"value of point is: "<<*point;
 }

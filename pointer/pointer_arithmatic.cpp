@@ -18,7 +18,7 @@ int main()
 
     //adding , substraction
     cout<<ptr<<endl;
-    ptr= ptr + 1;
+    ptr= ptr + 1;   //1 byte ==1 bit
     cout<<ptr<<endl;
     ptr=ptr-2;
     cout<<ptr<<endl;
